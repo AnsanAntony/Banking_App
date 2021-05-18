@@ -47,7 +47,7 @@
         android:text="START"
         android:textAlignment="center"
         android:textColor="@color/button_text_color"
-        android:translationY="@dimen/_60sdp" />
+        android:translationY="@dimen/_65sdp" />
 
     <TextView
         android:layout_width="443dp"
