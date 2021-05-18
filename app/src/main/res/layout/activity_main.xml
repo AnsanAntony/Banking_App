@@ -10,11 +10,12 @@
     >
 
     <pl.droidsonroids.gif.GifImageButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/triangleloading"
+        android:layout_width="284dp"
+        android:layout_height="394dp"
+        android:layout_marginLeft="3dp"
         android:background="@color/black"
-        />
-
-
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/triangleloading" />
 </LinearLayout>

@@ -1,5 +1,4 @@
 package com.example.bankingapp;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;

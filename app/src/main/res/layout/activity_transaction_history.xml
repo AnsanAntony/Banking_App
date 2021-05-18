@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#252525"
     tools:context=".TransactionHistory">
 
     <TextView
@@ -13,7 +14,7 @@
         android:padding="1dp"
         android:gravity="center"
         android:typeface="monospace"
-        android:textColor="#11209F"
+        android:textColor="#98A1ED"
         android:text="Recent Transaction"
         android:layout_marginTop="@dimen/_13sdp"
         android:textAllCaps="true"

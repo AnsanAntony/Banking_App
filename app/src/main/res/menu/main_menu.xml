@@ -5,6 +5,7 @@
         android:id="@+id/action_history"
         android:icon="@android:drawable/ic_menu_recent_history"
         android:orderInCategory="100"
+        android:background="#252525"
         app:showAsAction="always"
 
         android:title="TODO" />

@@ -7,10 +7,10 @@
     android:padding="8dp"
     android:orientation="vertical"
     card_view:cardUseCompatPadding="true"
-    android:background="#7A7C7C"
+    android:background="#252525"
     android:outlineSpotShadowColor="#7A7C7C"
     android:outlineAmbientShadowColor="#DBDFDF"
-    card_view:cardBackgroundColor="#E8E8E8"
+    card_view:cardBackgroundColor="#CACBCC"
     card_view:cardCornerRadius="8dp"
     android:layout_margin="8dp"
     card_view:cardElevation="6dp"
@@ -92,7 +92,7 @@
             android:layout_toRightOf="@+id/bbbb"
             android:layout_weight="1"
             android:text="0000"
-            android:textColor="#0C7BB6"></TextView>
+            android:textColor="#DF4311"></TextView>
 
     </RelativeLayout>
 
