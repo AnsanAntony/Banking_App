@@ -21,7 +21,34 @@
         android:textColor="#50A0D6"
         android:textSize="25dp"
         android:textStyle="bold"
+        android:translationY="50"
         android:typeface="monospace" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/bank_icon"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:translationY="@dimen/_40sdp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/bankimagefloating">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="#50A0D6"
+        android:fontFamily="@font/blues"
+        android:text="START"
+        android:textAlignment="center"
+        android:textColor="@color/button_text_color"
+        android:translationY="@dimen/_60sdp" />
 
     <TextView
         android:layout_width="443dp"
@@ -34,33 +61,11 @@
         android:textColor="#50A0D6"
         android:textSize="15dp"
         android:textStyle="bold"
+        android:translationY="150dp"
         android:typeface="monospace"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/bank_icon"
-        android:layout_width="@dimen/_180sdp"
-        android:layout_height="@dimen/_180sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginRight="@dimen/_5sdp"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/bankimagefloating">
-
-    </com.airbnb.lottie.LottieAnimationView>
-
-    <Button
-        android:id="@+id/button_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#50A0D6"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:text="START"
-        android:fontFamily="@font/blues"
-        android:textAlignment="center"
-        android:textColor="@color/button_text_color" />
 
 </LinearLayout>
