@@ -11,10 +11,11 @@
         android:layout_height="wrap_content"
         android:text="Select the receiver's account"
         android:textAlignment="center"
+        android:fontFamily="@font/rougant"
         android:textSize="@dimen/_11sdp"
         android:layout_marginTop="@dimen/_13sdp"
         android:typeface="monospace"
-        android:textColor="#7680D5"
+        android:textColor="#50A0D6"
         android:id="@+id/kkkk"
 
         />

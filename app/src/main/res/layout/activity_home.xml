@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:clickable="false"
         android:textStyle="bold"
-        android:text="BANKING APP"
+        android:text="BASIC BANKING APP"
+        android:fontFamily="@font/patron"
         android:layout_marginBottom="@dimen/_25sdp"
         android:layout_marginRight="@dimen/_5sdp"
         android:textAlignment="center"
@@ -38,9 +39,10 @@
         android:id="@+id/button_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/button_background_color"
+        android:backgroundTint="#50A0D6"
         android:layout_marginTop="@dimen/_20sdp"
         android:text="START"
+        android:fontFamily="@font/blues"
         android:textAlignment="center"
         android:textColor="@color/button_text_color" />
 
