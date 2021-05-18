@@ -12,17 +12,34 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="false"
-        android:textStyle="bold"
-        android:text="BASIC BANKING APP"
-        android:fontFamily="@font/patron"
-        android:layout_marginBottom="@dimen/_25sdp"
         android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:clickable="false"
+        android:fontFamily="@font/patron"
+        android:text="BASIC BANKING APP"
         android:textAlignment="center"
         android:textColor="#50A0D6"
-        android:typeface="monospace"
         android:textSize="25dp"
-        />
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="443dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="50dp"
+        android:clickable="false"
+        android:fontFamily="@font/patron"
+        android:text="Done by: Ansan George Antony"
+        android:textAlignment="center"
+        android:textColor="#50A0D6"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/bank_icon"
         android:layout_width="@dimen/_180sdp"
